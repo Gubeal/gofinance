@@ -7,3 +7,9 @@ expo start
 ### Instalar styled components
 yarn add styled-components
 yarn add @types/styled-components-react-native -D
+
+### Fonts instaladas 
+fonte: fonts.google.com
+expo install expo-font @expo-google-fonts/poppins
+Splash usado enquanto as fontes carregam 
+expo install expo-app-loading
