@@ -17,3 +17,7 @@ expo install expo-app-loading
 ### Proporções react native
 react-native-responsive-fontsize
 yarn add react-native-responsive-fontsize
+
+## Utilizando icones
+@expo/vector-icons
+Acessar: icons.expo.fyi
