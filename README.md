@@ -13,3 +13,7 @@ fonte: fonts.google.com
 expo install expo-font @expo-google-fonts/poppins
 Splash usado enquanto as fontes carregam 
 expo install expo-app-loading
+
+### Proporções react native
+react-native-responsive-fontsize
+yarn add react-native-responsive-fontsize
