@@ -21,3 +21,6 @@ yarn add react-native-responsive-fontsize
 ## Utilizando icones
 @expo/vector-icons
 Acessar: icons.expo.fyi
+
+## Verificar notch de iphones
+yarn add react-native-iphone-x-helper 
