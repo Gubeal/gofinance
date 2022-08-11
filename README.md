@@ -24,3 +24,13 @@ Acessar: icons.expo.fyi
 
 ## Verificar notch de iphones
 yarn add react-native-iphone-x-helper 
+
+
+### Observacao
+TODO se apresentar:
+
+Comportamento:
+- No emulador o botao ao abrir o modal nao funciona*
+usar a react native gesture handler.
+Solução:
+- No styles do CategorySelect alterar o Container de View para GestureHandlerRootView (react-native-gesture-handler) importado como o Feather por exemplo.
