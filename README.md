@@ -34,3 +34,6 @@ Comportamento:
 usar a react native gesture handler.
 Solução:
 - No styles do CategorySelect alterar o Container de View para GestureHandlerRootView (react-native-gesture-handler) importado como o Feather por exemplo.
+
+### Utilizando React hook form
+yarn add react-hook-form
