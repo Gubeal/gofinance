@@ -37,3 +37,6 @@ Solução:
 
 ### Utilizando React hook form
 yarn add react-hook-form
+
+### Acrescentar validação do formulário
+yarn add @hookform/resolvers yup
