@@ -40,3 +40,7 @@ yarn add react-hook-form
 
 ### Acrescentar validação do formulário
 yarn add @hookform/resolvers yup
+
+### Navegação entre as telas
+yarn add @react-navigation/native
+expo install react-native-screens react-native-safe-area-context
