@@ -13,7 +13,6 @@ import { useForm } from 'react-hook-form';
 import { Button } from '../../components/Forms/Button';
 import { CategorySelectButton } from '../../components/Forms/CategorySelectButton';
 
-import { Input } from '../../components/Forms/Input';
 import { InputForm } from '../../components/Forms/InputForm';
 
 import { TransactionTypeButton } from '../../components/Forms/TransactionTypeButton';
@@ -39,7 +38,8 @@ const schema = Yup.object().shape({
   amount: Yup
     .number()
     .typeError('Informe um valor numérico')
-    .positive('Informe não pode ser negativo'),
+    .positive('Informe não pode ser negativo')
+    .required('Informe o preço'),
 });
 
 export function Register() {
